@@ -177,7 +177,7 @@ section {
     margin-bottom: 6rem;
 }
 
-.card {
+.container-tec .card {
     width: 40rem;
     height: 8rem;
     background-color: #1f1f1f;
@@ -216,6 +216,27 @@ section {
 
 .exps {
     color: #f8ad21;
+}
+
+.container-port {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2.2rem;
+}
+
+.container-port .card {
+    height: 32rem;
+    width: 20rem;
+    background-color: #1f1f1f;
+    cursor: pointer;
+    border-radius: 12px;
+    box-shadow: 0 0 6px #1f1f1f;
+    transition: ease-in-out 600ms;
+}
+
+.container-port .card:hover {
+    box-shadow: 0 0 18px #84f1ff;
 }
 
 footer {
