@@ -12,6 +12,10 @@
 
 }
 
+*::selection{
+    background-color: #1f66ff;
+}
+
 html {
     scroll-behavior: smooth;
 }
@@ -149,6 +153,7 @@ section {
     padding: 1rem 2rem;
     border-radius: 16px;
     text-align: center;
+    word-spacing: 2px;
 
 }
 
