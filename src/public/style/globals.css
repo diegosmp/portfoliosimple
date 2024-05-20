@@ -161,6 +161,63 @@ section {
     font-size: 3rem;
 }
 
+.container-tec {
+    width: 90%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1.2rem;
+}
+
+.container-tec .title-tec {
+    text-align: center;
+    font-size: 3.5rem;
+    font-weight: 900;
+    margin-bottom: 6rem;
+}
+
+.card {
+    width: 40rem;
+    height: 8rem;
+    background-color: #1f1f1f;
+    color: #f1f1f1;
+    border-radius: 14px;
+    padding: .8rem 1rem;
+    box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.75);
+    cursor: pointer;
+    transition: ease-in-out 200ms;
+    margin: 0 4rem;
+}
+
+.card:nth-child(3) {
+    align-self: flex-end;
+}
+
+.card:hover {
+    transform: scale(1.01);
+}
+
+.html {
+    color: #1f66ff;
+}
+
+.css {
+    color: #00c451;
+}
+
+.js {
+    color: #f8f521;
+}
+
+.react {
+    color: #1fa5ff;
+}
+
+.exps {
+    color: #f8ad21;
+}
+
 footer {
     height: 10rem;
     width: 12rem;
